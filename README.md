@@ -1,4 +1,4 @@
-# 🔐 Secure Toolkit (Python GUI)
+# 🔐 Security Toolkit (Python GUI)
 
 An all-in-one **security toolkit** built with **Python & Tkinter** that demonstrates modern
 **password security, encryption, and file protection** techniques.
@@ -61,6 +61,34 @@ secure-toolkit/
 | UI Components | ttk (Themed Tkinter) |
 
 ---
+
+## 🛠️ Installation
+
+### 1️⃣ Clone the Repository
+```bash
+  git clone https://github.com/DevGopi-17/Multi-Functional-Security-Toolkit.git
+  cd Multi-Functional-Security-Toolkit
+```
+
+## Create & Activate Virtual Environment (Recommended)
+```bash
+python3 -m venv venv
+# macOS / Linux
+source venv/bin/activate
+
+# Windows (PowerShell)
+venv\Scripts\Activate.ps1
+
+# Windows (CMD)
+venv\Scripts\activate.bat
+```
+
+## Run the Application
+
+```bash
+python secure_toolkit.py
+```
+
 
 
 
