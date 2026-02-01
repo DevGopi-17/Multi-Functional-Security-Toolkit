@@ -1,66 +1,81 @@
-# 🔐 Security Toolkit (Python GUI)
+# 🔐 Secure Toolkit — Python Security Application
 
-An all-in-one **security toolkit** built with **Python & Tkinter** that demonstrates modern
-**password security, encryption, and file protection** techniques.
+A desktop-based **security toolkit** built with **Python and Tkinter** that demonstrates
+practical concepts of **encryption, secure storage, and sensitive data handling**.
 
-This project is suitable for **students, beginners in cybersecurity, and Python developers**
-looking to build real-world secure applications.
+This project is designed as a **portfolio-grade application** for showcasing
+skills in **Python development, cybersecurity fundamentals, and GUI design**.
 
 ---
 
-## 🚀 Features
+## 📌 Overview
 
-### 🔑 Password Tool
-- Secure password hashing using **bcrypt**
-- Password verification
-- Password strength checker
-- Secure random password generator
+**Secure Toolkit** is a multi-module Python application that allows users to:
+
+- Encrypt and decrypt sensitive data
+- Securely store credentials and notes
+- Protect files using strong symmetric encryption
+- Generate cryptographically secure keys and passwords
+
+The project emphasizes **clarity, security awareness, and real-world usability**.
+
+---
+
+## ✨ Key Features
+
+### 🔑 Password Encryption Tool
+- Reversible password encryption using **Fernet (AES)**
+- Password decryption with key-based security
+- Password strength analysis
+- Secure random password generation
+- Clipboard copy support
 - Show / hide password toggle
 
-### 🗂️ Password Manager
-- Store website credentials securely
-- AES encryption using **Fernet**
-- Encrypted password storage in file
-- View decrypted passwords inside the app only
+---
 
-## 📂 Project Structure
+### 🗂️ Encrypted Password Manager
+- Secure storage of website credentials
+- All data encrypted before being written to disk
+- Search functionality for stored credentials
+- Decryption performed only inside the application
+- Clipboard support for selected entries
+
+---
+
+### 📁 File Encryption & Decryption
+- Encrypt and decrypt files using AES encryption
+- Supports multiple file selection
+- Automatic backup creation during decryption
+- Prevents accidental data loss
+
+---
+
+### 📝 Secure Notes
+- Encrypted personal notes storage
+- Notes remain encrypted on disk at all times
+- Decryption occurs only on demand
+
+---
+
+### 🔐 Key / Token Generator
+- Generates cryptographically secure random keys
+- Customizable key length
+- Suitable for tokens, API keys, or secrets
+
+---
+
+## 🗂️ Project Structure
 
 ```text
 secure-toolkit/
 │
 ├── secure_toolkit.py        # Main application (GUI + logic)
-├── secret.key               # AES encryption key (auto-generated)
-├── passwords.enc            # Encrypted password storage
+├── secret.key               # Symmetric encryption key (auto-generated)
+├── passwords.enc            # Encrypted credentials storage
+├── notes.enc                # Encrypted secure notes
 ├── README.md                # Project documentation
-└── venv/                    # Virtual environment (optional
+└── venv/                    # Virtual environment (optional)
 ```
-
-## 🔐 Security Notes
-
-- Passwords are **bcrypt-hashed** (one-way, cannot be decrypted)  
-- Data encrypted with **Fernet (AES)** using auto-generated `secret.key`  
-- Deleting `secret.key` makes encrypted data unrecoverable  
-- Passwords are **never stored in plain text**  
-- File encryption uses **AES-128**  
-- Secure random values generated with **Python `secrets` module**  
-- Decryption occurs **only in memory**, not written to disk
-
-
----
-
-## 🧩 Technologies Used
-
-| Category | Technology |
-|--------|------------|
-| Programming Language | Python 3 |
-| GUI Framework | Tkinter |
-| Password Hashing | bcrypt |
-| Encryption | cryptography (Fernet / AES) |
-| Secure Random Generator | secrets |
-| File Handling | Python OS & File I/O |
-| UI Components | ttk (Themed Tkinter) |
-
----
 
 ## 🛠️ Installation
 
