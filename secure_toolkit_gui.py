@@ -189,6 +189,9 @@ class SecureToolkit(tk.Tk):
         self.tabs.add(PasswordManager(self.tabs, self.fernet), text="Password Manager")
         self.tabs.add(FileEncryptor(self.tabs, self.fernet), text="File Encryption")
 
-
+# RUn application
 if __name__ == "__main__":
     SecureToolkit().mainloop()
+
+
+
