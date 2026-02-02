@@ -1,10 +1,15 @@
 # 🔐 Secure Toolkit — Python Security Application
 
-A desktop-based **security toolkit** built with **Python and Tkinter** that demonstrates
-practical concepts of **encryption, secure storage, and sensitive data handling**.
+A `Python` desktop application built with `Tkinter` that provides tools for 
+**password management**, **file encryption**, **secure notes**, and **key/token generation**.
 
-This project is designed as a **portfolio-grade application** for showcasing
-skills in **Python development, cybersecurity fundamentals, and GUI design**.
+The application focuses on practical implementations such as 
+**local data storage**, `encryption workflows`, and **user-friendly desktop interfaces**. 
+Each module is designed to be **modular**, **readable**, and **easy to extend**.
+
+This project is intended as a **portfolio-grade** example showcasing 
+`Python application development`, **clean code organization**, and 
+**desktop GUI design** using `Tkinter`.
 
 ---
 
@@ -18,6 +23,65 @@ skills in **Python development, cybersecurity fundamentals, and GUI design**.
 - Generate cryptographically secure keys and passwords
 
 The project emphasizes **clarity, security awareness, and real-world usability**.
+
+---
+
+## 🎥 Demo / Screenshots
+
+
+<details> <!-- 1st -->
+
+<summary>Password Tool Image</summary>
+
+Main dashboard of the password management tool:
+
+![Password Tool Screenshot](images/Password-Tool.png)
+
+</details>
+
+
+<details> <!-- 2nd -->
+
+<summary>Password Manager Image</summary>
+
+The main dashboard for securely storing, viewing, and managing encrypted passwords:
+
+![Password Manager Screenshot](images/Password-Manager.png)
+
+</details>
+
+
+<details> <!-- 3rd -->
+
+<summary>File Encryption Image</summary>
+
+Interface for encrypting and decrypting files using strong cryptographic keys:
+
+![File Encryption Screenshot](images/File-Encryption.png)
+
+</details>
+
+
+<details> <!-- 4th -->
+
+<summary>Secure Notes Image</summary>
+
+Secure notes section for storing sensitive information with encryption protection:
+
+![Secure Notes Screenshot](images/Secure-Notes.png)
+
+</details>
+
+
+<details> <!-- 5th -->
+
+<summary>Key/Token Generator Image</summary>
+
+Built-in generator for creating strong passwords, cryptographic keys, and secure tokens:
+
+![Key/Token Generator Screenshot](images/Key-Token-Generator.png)
+
+</details>
 
 ---
 
@@ -103,10 +167,40 @@ venv\Scripts\activate.bat
 ```bash
 python secure_toolkit.py
 ```
+---
 
+## 🤝 Contributing
+Feel free to submit issues or pull requests. Future enhancements may include:
+- Multi-user support
+- Cloud synchronization
+- Additional encryption algorithms
+- Improved UI/UX
+- Automated testing & CI/CD
+- Plugin system
 
+---
 
+## MIT License
 
+Copyright (c) 2026 Gopi Prajapati
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 
 
